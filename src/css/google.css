@@ -2,3 +2,15 @@ img.custom_google_logo {
 	width: 500px;
 	margin-left: -60px;
 }
+
+@-webkit-keyframes pinkPulse {
+  from { background-color: #FF99E6; -webkit-box-shadow: 0 0 9px #FF99E6; }
+  50% { background-color: #FFCCF2; -webkit-box-shadow: 0 0 18px #FFCCF2; }
+  to { background-color: #FF99E6; -webkit-box-shadow: 0 0 9px #FF99E6; }
+}
+
+.glowing-pink {
+  -webkit-animation-name: pinkPulse;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+}
